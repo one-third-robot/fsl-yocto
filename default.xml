@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="master"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  
+  <!-- yocto -->
+  <project remote="yocto" revision="master" name="poky" path="poky"/>
+  <project remote="yocto" revision="master" name="meta-freescale" path="meta-freescale"/>
+
+  <!-- oe -->
+  <project remote="oe" revision="master" name="meta-openembedded" path="meta-openembedded"/>
+  
+</manifest>
